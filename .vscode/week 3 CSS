@@ -1,0 +1,26 @@
+CSS- Cascading Style Sheets
+
+CSS rules
+1. Selector
+2.Declaration block{}
+
+p{
+    property : value;
+    color : blue
+    font-size : 16px;
+}
+
+Selectors:
+
+1. Universal selector (*) -targets all elements
+*{
+    ...style goes here
+}
+
+2. Element selector - target specific elements
+h1 {
+    color : purple;
+    font-size : 16px;
+}
+
+3. class selector - targets elements with a specific class attribute (.)
